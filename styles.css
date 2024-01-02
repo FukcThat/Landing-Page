@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    width: 100%;
+}
+
+.Header {
+    background-color: #1F2937;
+    height: 75px;
+}
+
+.Section1 {
+    background-color: #1F2937;
+    height: 500px;
+}
+
+.Section2 {
+    background-color: #ffffff;
+    height: 500px;
+}
+
+.Section3 {
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.Section4 {
+    background-color: #ffffff;
+    height: 500px;
+}
+
+.Footer {
+    background-color: #1F2937;
+    height: 75px;
+}
