@@ -1,15 +1,28 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
     width: 100%;
 }
 
+.HeaderLink {
+    margin-top: 20px;
+    height: 45px;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 200px;
+    align-self: flex-end;
+}
+
 .Header {
     background-color: #1F2937;
-    height: 75px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Section1 {
@@ -34,5 +47,15 @@ div {
 
 .Footer {
     background-color: #1F2937;
-    height: 75px;
+    height: 65px;
+}
+
+#HeaderLogo {
+    margin-top: 20px;
+    margin-right: 500px;
+    height: 45px;
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 200px;
+    align-self: flex-start;
 }
