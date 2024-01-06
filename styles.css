@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 div {
@@ -84,9 +85,45 @@ button {
     align-items: center;
 }
 
-.Section2 {
+#Section2Title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Section2Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subsection2Squares {
     background-color: #ffffff;
     height: 500px;
+    width: 80%;
+    padding-left: 125px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+    align-items: start;
+    align-content: center;
+}
+
+.Square {
+    height: 150px;
+    width: 150px;
+    border: #3882F6 solid 5px;
+    border-radius: 25px;
+}
+
+.Subtext {
+    height: 100px;
+    width: 175px;
+    color: #1F2937;
 }
 
 .Section3 {
