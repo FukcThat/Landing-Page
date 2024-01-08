@@ -130,13 +130,9 @@ button {
     background-color: #E5E7EB;
     height: 500px;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-#Subsection3 {
-    height: 400px;
-    width: 850px;
-    display: flex;
+    flex-wrap: wrap;
 }
 
 #Quote {
@@ -145,13 +141,11 @@ button {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    align-self: flex-start;
 }
 
 #QuoteSource {
     width: 825px;
     font-size: 24px;
-    align-self: flex-end;
 }
 
 .Section4 {
@@ -162,4 +156,8 @@ button {
 .Footer {
     background-color: #1F2937;
     height: 65px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
