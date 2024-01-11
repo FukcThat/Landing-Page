@@ -53,6 +53,7 @@ div {
 
 .Subsection1Left{
     margin-left: 125px;
+    width: 55%;
 }
 
 #Title { 
@@ -83,9 +84,9 @@ button {
 }
 
 #ImgPlaceholder {
-    height: 200px;
+    height: 275px;
     width: 50%;
-    background-color: #ffffff7f;
+    background-color: #ffffff51;
     color: #ffffff;
     font-size: 18px;
     display: flex;
@@ -148,7 +149,7 @@ button {
 #Quote {
     width: 825px;
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
     margin-bottom: -100px;
@@ -162,6 +163,7 @@ button {
     text-align: end;
     font-weight: bold;
     margin-right: 100px;
+    margin-bottom: -50px;
 }
 
 .Section4 {
@@ -182,11 +184,14 @@ button {
 
 h4 {
     color: #E5E7EB;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: -10px;
 }
 
 #BlueButton {
     height: 40px;
-    width: 125px;
+    width: 150px;
     background-color: #3882F6;
     border: #F9FAF8 solid 3px;
     color: #E5E7EB;
